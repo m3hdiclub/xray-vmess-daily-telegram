@@ -66,7 +66,7 @@ cp -ar ./vCard-personal-portfolio/*  /var/www/html/
 rm -rf ./vCard-personal-portfolio/
 
 
-Install cron job 
+apt install cron
 croncmd="cd $install_dir && $install_dir/xray-telegram > $install_dir/cronjob.log 2>&1"
 cronjob="30 3 * * * $croncmd"
 ( crontab -l | grep -v -F "$croncmd" ; echo "$cronjob" ) | crontab -
