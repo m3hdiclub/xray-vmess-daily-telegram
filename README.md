@@ -33,7 +33,7 @@ cd /root/xray-configuration
 * <b>please run these command one by one. </b>
 
 ```
-wget https://raw.githubusercontent.com/majidrezarahnavard/xray-vmess-daily-telegram/main/install.sh
+wget https://raw.githubusercontent.com/m3hdiclub/xray-vmess-daily-telegram/main/install.sh
 sudo chmod +x /root/xray-configuration/install.sh
 bash /root/xray-configuration/install.sh
 ```
